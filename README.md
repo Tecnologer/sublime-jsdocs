@@ -276,8 +276,10 @@ You can access the configuration settings by selecting `Preferences -> Package S
 
 ## Contributors
 
-###My contribution
-    <b>Add username on the @author and value today for @date from OS</b>
+*********************************
+### My contribution
+    Add username on the @author and value today for @date from OS
+*********************************
 
 This package was created by [Nick Fisher][spadgos], but has many contributions from others. Please take a look at the [contributors list][contributors] to see who else should get some thanks.
 
