@@ -2,7 +2,7 @@
   "scope": "source.java comment.block.documentation,source.groovy comment.block.documentation,source.apex comment.block.documentation",
   "completions":
   [
-    { "trigger" : "@author",            "contents": "@author ${1:[author]}"},
+    { "trigger" : "@author",            "contents": "@author ${1:[Rey David Dominguez]}"},
     { "trigger" : "@deprecated",        "contents": "@deprecated ${1:[deprecated-text]}"},
     { "trigger" : "@exception",         "contents": "@exception ${1:[class-name]} ${2:[description]}"},
     { "trigger" : "@param",             "contents": "@param ${1:[parameter-name]} ${2:[description]}"},

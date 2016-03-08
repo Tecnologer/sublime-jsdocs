@@ -12,6 +12,7 @@ import re
 import datetime
 import time
 import imp
+import getpass
 from functools import reduce
 
 def read_line(view, point):
@@ -409,15 +410,17 @@ class JsdocsParser(object):
 
     def formatFunction(self, name, args, retval, options={}):
         out = []
+        out.append("@author [%s" % getpass.getuser() +"]")
+        out.append("@date [%s" % time.strftime("%m/%d/%Y")+"]");
         if 'as_setter' in options:
             out.append('@private')
             return out
 
         extraTagAfter = self.viewSettings.get("jsdocs_extra_tags_go_after") or False
-
+        
         description = self.getNameOverride() or ('[%s%sdescription]' % (escape(name), ' ' if name else ''))
         if self.viewSettings.get('jsdocs_function_description'):
-            out.append("${1:%s}" % description)
+            out.append("@description %s" % description)
 
         if (self.viewSettings.get("jsdocs_autoadd_method_tag") is True):
             out.append("@%s %s" % (
