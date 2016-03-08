@@ -275,9 +275,10 @@ You can access the configuration settings by selecting `Preferences -> Package S
 - `jsdocs_function_description` *(Boolean)* If true, a 'description' line will be added for functions. Default: `true`
 
 ## Contributors
-
-###My contribution
-    <b>Add username on the @author and value today for @date</b>
+******************************
+#### My contribution
+ *Add username on the @author and value today for @date*
+*******************************
 
 This package was created by [Nick Fisher][spadgos], but has many contributions from others. Please take a look at the [contributors list][contributors] to see who else should get some thanks.
 
