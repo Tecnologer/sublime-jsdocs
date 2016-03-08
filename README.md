@@ -277,7 +277,8 @@ You can access the configuration settings by selecting `Preferences -> Package S
 ## Contributors
 
 ###My contribution
-Add username on the @author and value today for @date
+    <b>Add username on the @author and value today for @date</b>
+
 This package was created by [Nick Fisher][spadgos], but has many contributions from others. Please take a look at the [contributors list][contributors] to see who else should get some thanks.
 
 [closure]: http://code.google.com/closure/compiler/docs/js-for-compiler.html
